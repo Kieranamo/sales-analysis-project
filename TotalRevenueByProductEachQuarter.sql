@@ -1,7 +1,8 @@
 WITH cte AS (
 	SELECT 
 		CONCAT(YEAR(s.sale_date), ' Q', QUARTER(s.sale_date)) sales_quarter,
-        p.Product_Name, p.Price,
+        p.Product_Name, 
+        p.Price,
         SUM(s.quantity) total_quantity
 	FROM products p
 		JOIN sales s ON p.Product_ID = s.product_id
