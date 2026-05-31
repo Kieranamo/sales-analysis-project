@@ -5,6 +5,8 @@ This project explores the Apple Retail Sales Dataset on Kaggle.
 
 ## Tools Used
 - SQL (MySQL)
+- Excel
+- Power Bi
 
 ## Dataset
 The dataset contains sales information including:
@@ -16,9 +18,15 @@ The dataset contains sales information including:
 
 ## KPIs and Key Questions
 - total sales revenue by quarter
+- total Units sold by quarter
+- Which products and product categories make the most sales and the most revenue?
+- Which cities and countries make the most sales and the most revenue?
+- How long after the sale of a product on average do people make a warranty claim?
 
 ## Project Structure
 - SQL queries used for analysis
+- Excel used for data cleaning
+- Power Bi used to create final dashboard
 
 ## How to Run
 1. Import dataset into MySQL
